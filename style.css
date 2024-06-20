@@ -1,14 +1,16 @@
 :root{
-    --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
-    --cor-destaque: #d71edd;
-    --cor-texto: #D7F9FF;
+    --cor-fundo: #fdfeff7a ;
+    --cor-principal: #fcfcfc63 ;
+    --cor-secundaria: #cccccc21; 
+    --cor-destaque: #000000;
+    --cor-texto: #000000;
 
 }
 
 body {
-    background-color: var(--cor-fundo);
+    background-image: url(./Gossip-Girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
