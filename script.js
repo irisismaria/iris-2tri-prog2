@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Louis",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "1-acertou "
             },
             {
                 texto: "Nate",
-                afirmacao: "Com quem Blair Waldorf se casou na 5ª temporada?"
+                afirmacao: "1- errou"
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Georgina Sparks",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                afirmacao: "2- acertou"
             },
             {
                 texto: "Chuck Bass",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: "2- errou"
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Inside",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                afirmacao: "3- acertou"
             },
             {
                 texto: "sobre mim",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "3- errou"
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Henry Bass",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                afirmacao: "4- acertou"
             },
             {
                 texto: "Leo Waldorf",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                afirmacao: "4- errou"
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Nate Archibald",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: "5- errou"
             },
             {
                 texto: "daniel Humphrey",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "5- acertou "
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "gabarito";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }

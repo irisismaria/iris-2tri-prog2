@@ -1,6 +1,6 @@
 :root{
-    --cor-fundo: #fdfeff7a ;
-    --cor-principal: #fcfcfc63 ;
+    --cor-fundo: #fdfeff1a ;
+    --cor-principal: #fcfcfcbd ;
     --cor-secundaria: #cccccc21; 
     --cor-destaque: #000000;
     --cor-texto: #000000;
@@ -37,9 +37,14 @@ button {
     border-radius: 15px;
     padding: 15px;
     transition: background-color 0.3s;
+    font-size: 20px;
 }
 
 button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
+}
+
+.caixa-perguntas{
+    font-size: 20px;
 }
